@@ -1,4 +1,5 @@
 ## MEAN EXAMPLE APP
+![MEAN IMG](http://blog.onclickinnovations.com/wp-content/uploads/2016/12/mean.png)
 
 This repository is for test only
 The goal is to provide an example of **MEAN** STACK WebApp.
