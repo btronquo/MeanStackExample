@@ -1,0 +1,39 @@
+{
+  "name": "mean-example-app",
+  "version": "1.0.0",
+  "description": "WebApp Example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btronquo/MeanStackExample.git"
+  },
+  "keywords": [
+    "MEAN",
+    "STACK",
+    "MongoDB",
+    "Express",
+    "AngularJs",
+    "NodeJs"
+  ],
+  "author": "Boris Tronquoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btronquo/MeanStackExample/issues"
+  },
+  "homepage": "https://github.com/btronquo/MeanStackExample#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.5",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  }
+}
