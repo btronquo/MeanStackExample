@@ -8,7 +8,13 @@ The goal is to provide an example of **MEAN** STACK WebApp.
 > **M**ongoDB - **E**xpress - **A**ngularJs - **N**odeJs
 
 
-##Functions
+### Dependances
+**Mongoose.js**
+**Angular ui-router**
+**Twitter Bootstrap**
+
+
+### Functions
 ```txt
 |-(If!Login) -> user see home basic page
 |
