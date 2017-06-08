@@ -5,6 +5,9 @@ The goal is to provide an example of **MEAN** STACK WebApp.
 
 > What MEAN mean ? (:P)
 > **M**ongoDB - **E**xpress - **A**ngularJs - **N**odeJs
+
+
+##Functions
 ```txt
 |-(If!Login) -> user see home basic page
 |
@@ -13,12 +16,10 @@ The goal is to provide an example of **MEAN** STACK WebApp.
 |	 |		|--- Modify email
 |	 |		|--- Add/Modify Avatar
 |	 |		|--- Add Album
-|    |				|---- Add Pics
-|
-|
-|
-|
-|
-|
+|  				      |---- Add Pics
+|               |---- Remove Pics
 |
 ```
+
+Author: Boris Tronquoy
+Licence: MIT
