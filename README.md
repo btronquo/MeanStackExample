@@ -10,7 +10,9 @@ The goal is to provide an example of **MEAN** STACK WebApp.
 
 ### Dependances
 **Mongoose.js**
+
 **Angular ui-router**
+
 **Twitter Bootstrap**
 
 
