@@ -21,5 +21,5 @@ The goal is to provide an example of **MEAN** STACK WebApp.
 |
 ```
 
-Author: Boris Tronquoy
-Licence: MIT
+>Author: Boris Tronquoy
+>Licence: MIT
