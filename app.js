@@ -22,6 +22,7 @@ mongoose.connection.on('error', (err) =>{
 
 const app = express();
 
+// Define route users
 const users = require('./routes/users');
 
 // Server port
@@ -30,20 +31,18 @@ const port = 3000;
 // Middleware -> Cors
 app.use(cors());
 
-// MiddleWare -Q bodyParser
+// MiddleWare -> bodyParser
 app.use(bodyParser.json());
 
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-
-
+// Use 'users' as route
 app.use('/users', users);
 
-// Index Route
+// ----- Index Route
 app.get('/', (req, res)=>{
-	res.send('Home page lol');
+	res.send('Welcome to home page');
 });
 
 app.listen(port, ()=>{
